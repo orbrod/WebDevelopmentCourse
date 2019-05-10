@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c');
+
+body {
+    direction: rtl;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+#white { /*white backround*/
+    width: 728px;
+    height: 390px;
+    position: relative;
+    top: 144px;
+    right: 104px;
+    background-color: whitesmoke;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+}
+#container { 
+    width: 960px;
+    margin: 0 auto;
+    background-size: 133%;
+    background-repeat: no-repeat;
+    background-image: url('../images/close-up-coffee-creative-905868.jpg');
+    margin-bottom: 0px;
+    height: 1000px;
+}
+
+ul {
+    list-style: none;
+}
+nav ul li {
+    display:inline-block;
+    float: right;
+}
+
+    nav ul li a { /*navigation bar*/
+        display: block;
+        background-color: #2f2f33;
+        color: white;
+        width: 120px;
+        height: 30px;
+        padding-top: 5px;
+        text-decoration: none;
+        text-align: center;
+        margin-right: 100px;
+        position: center;
+        margin-right: 84px;
+        margin-top: 30px;
+        -webkit-border-radius: 30px;
+        border-radius: 30px;
+        -moz-box-sizing: content-box;
+        -webkit-box-sizing: content-box;
+        box-sizing: content-box;
+        padding-bottom: 5px;
+    }
+    nav ul li a:hover{
+        background-color:cornflowerblue;
+
+    }
+    nav ul li a:active{
+        background-color:forestgreen;
+    }
+    nav ul li ul {
+        display: none;
+        position:absolute;
+       
+    }
+        nav ul li:hover > ul {
+            display: block;
+            width: 120px;
+
+           
+            
+        }
+        nav ul li:hover >li{
+            margin:0px;
+        }
+  
+            
+
+
+
+
+#explainpost { /*paragrph style - postcard page*/
+    font-family: sans-serif;
+    margin-top: -502px;
+    font-size: 20px;
+    position: relative;
+    padding-top: -1px;
+    width: 200px;
+    margin-right: 10px
+}
+#expalinHIT { /*paragrph style - HIT card page*/
+    font-family: sans-serif;
+    font-size: 20px;
+    width: 291px;
+    margin-right: 10px;
+    margin-top: -383px
+}
+#explainproject { /*paragrph style - final picture page*/
+    font-family: sans-serif;
+    font-size: 20px;
+    width: 396px;
+    margin-top: -525px;
+    margin-right: 14px;
+}
+h1 { /* h1 style - identical in all pages*/
+    position: relative;
+    right: 7px;
+    top: -60px;
+    font-size: 30px;
+    font-family: sans-serif
+}
+#card { /*picture style - HIT card page*/
+    position: relative;
+    top: -123px;
+    right: 426px;
+    height: 375px;
+   
+    background-size: 25%;
+    background-repeat: no-repeat;
+}
+.currentpage { /*current page mark style - navigation bar*/
+    background-color: forestgreen;
+ 
+}
+    
+
+#postcard { /*picture style - postcard page*/
+    position: relative;
+    top: -115px;
+    right: 217px;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 355px;
+    background-size: 100%;
+}
+#finalpicture { /*picture style -final picture page*/
+    position: relative;
+    top: -125px;
+    right: 437px;
+    height: 381px;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+a{ /*a style - nav bar*/
+    color:white;
+    text-decoration:none;
+}
+
+#movie { /*movie style - final movie page*/
+    position: relative;
+    top: -87px;
+    right: 74px;
+}
+#white2 { /*white background style - Index page*/
+    width: 349px;
+    height: 459px;
+    background-color: whitesmoke;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+    position: relative;
+    top: 102px;
+    right: 39px;
+}
+#plant { /*plant picture style - Index page and CSS animation code*/
+    background-image: url('../images/pot new.png');
+    position: relative;
+    height: 293px;
+    background-size: 43%;
+    background-repeat: no-repeat;
+    top: -192px;
+    right: -545px;
+    -webkit-transition: all 3s linear;
+    -moz-transition: all 3s linear;
+    -ms-transition: all 3s linear;
+    -o-transition: all 3s linear;
+    transition: all 3s linear;
+}
+    #plant:hover { /*flower picture style - Index page , hover plant picture*/
+        background-image: url('../images/flower new.png');
+        position: relative;
+        top: -288px;
+        right: -545px;
+        height: 400px;
+        background-size: 43%;
+    }
+
+
+h2 {
+    position: absolute;
+    top: -20px;
+    right: 57px;
+    font-size: 30px;
+}
+#explainOr { /*paragrph style - Index page*/
+    position: relative;
+    top: -16px;
+    right: 15px;
+    font-size: 20px;
+    width: 300px;
+}
+
+#homeAudio { /*audio style - Index page*/
+    position: relative;
+    top: -781px;
+    right: 410px;
+}
+#name { /*or brod - Index page*/
+    background-image: url('../images/generatedtext (2).png');
+    position: relative;
+    width: 584px;
+    height: 143px;
+    top: -517px;
+    right: 308px;
+    background-repeat: no-repeat;
+    background-size: 85%;
+}
+#audioCard { /*audio style - post card page*/
+    position: relative;
+    top: -311px;
+    right: 213px;
+    width: 454px;
+    height: 23px;
+}
+
+     
+
+            
