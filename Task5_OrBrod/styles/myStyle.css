@@ -1,0 +1,112 @@
+body {
+    direction: rtl;
+    background-color: #FCE9CC;
+}
+#container {
+    margin: 0px,auto;
+    width: 960px;
+    height:1000px
+  
+}
+h1 {
+    width: 715px;
+    height: 50px;
+    background-color: #A64E6E;
+    color: white;
+    position: relative;
+    right: 0px;
+    top: 3px;
+    text-align: center;
+    padding-top: 38px;
+    font-size: 50px;
+    padding-bottom: 43px;
+    border: solid;
+    font-family: Calibri;
+}
+#white {
+    background-color: white;
+    width: 719px;
+    height: 1119px;
+    position: relative;
+    top: -3px;
+    right: 266px;
+}
+
+#picture {
+    background-image: url(../images/7893684_m.jpg);
+    width: 655px;
+    height: 300PX;
+    BACKGROUND-SIZE: 59%;
+    BACKGROUND-REPEAT: NO-REPEAT;
+    position: relative;
+    top: 435px
+}
+.form {
+    position: relative;
+    top: -187px;
+    right: 64px;
+    font-family: Calibri;
+}
+p {
+    font-family: Calibri;
+    width: 646px;
+    position: relative;
+    right: 29px;
+    top: 24px;
+    font-size: 20px;
+}
+#round {
+    background-image: url('../images/Untitled-7.png');
+    width: 553px;
+    height: 361px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    top: -338px;
+    right: 82px;
+}
+#new {
+    position: relative;
+    top: 356px;
+    right: 246px;
+    font-family: Calibri;
+    font-size: 20px;
+}
+#arrow {
+    background-image: url('../images/Untitled-2-03.png');
+    background-size: 66%;
+    height: 143px;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -540px;
+    right: -160px;
+}
+label ,p {
+    font-family:Calibri;
+}
+#SendForm {
+    font-family: Calibri;
+    font-weight: bold;
+    position: relative;
+    top: 8px;
+    right: 40px;
+    width: 85px;
+    padding-bottom: 4px;
+}
+#logo {
+    background-image: url('../images/HIT-logo_homePage.png');
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: 51%;
+    position: relative;
+    top: -211px;
+    right: 223px;
+}
+#explain {
+    font-family: Calibri;
+    margin-top: -527px;
+    margin-right: 43px;
+    font-size: 17px;
+    font-weight: bold;
+}
